@@ -38,6 +38,7 @@ onClick("sixteenGB", "memory-cost", 300);
 onClick("eightGB", "memory-cost", 0);
 onClick("ssd1", "storage-cost", 0);
 onClick("ssd2", "storage-cost", 200);
+onClick("ssd2", "storage-cost", 200);
 
 function updatePrice(itemId, price) {
     const memoryCost = document.getElementById(itemId);
@@ -72,6 +73,7 @@ document.getElementById("apply-btn").addEventListener("click", function(){
         total.innerText = totalPrice;
 
     } else{
+        const notMaching = document.getElementById()
 
     }
 })

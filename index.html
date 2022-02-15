@@ -91,7 +91,7 @@
               Friday, Aug 25 FREE Prime Delivery
             </p>
             <p role="button" class="p4 button-style" id="paid-delivery">
-              <i class="fa-solid fa-circle-plus"></i> Friday, Aug21 Delivery Charge $20
+              <i class="fa-solid fa-circle-plus" id="delivary"></i> Friday, Aug21 Delivery Charge $20
             </p>
           </div>
           <!-- -----------Prices After Customization---------------------  -->
@@ -103,7 +103,7 @@
               <p class="bold">Delivery Charge</p>
             </div>
             <div class="col-2">
-              <p class="bold">$<span id="best-price">1299</span></p>
+              <p class="bold">$<span id="best-price">1200</span></p>
               <p class="bold">$<span id="memory-cost">0</span></p>
               <p class="bold">$<span id="storage-cost">0</span></p>
               <p class="bold">$<span id="delivery-cost">0</span></p>
@@ -118,14 +118,16 @@
               <p class="bold">Total Price</p>
             </div>
             <div class="col-2">
-              <p class="bold">$<span id="total-price">1299</span></p>
+              <p class="bold">$<span id="total-price">1200</span></p>
             </div>
           </div>
           <!-- ----------promo code section-------------  -->
           <div class="row margin-top mb-3">
             <div class="flex">
               <p class="bold">Add promo Code</p>
+              <p id="promo-macching" class="text-muted"></p>
               <input type="text" class="p-2" id="promo-input" placeholder="Enter Promo Code" />
+              
               <button class="btn-secondary rounded py-2 px-3" id="apply-btn">Apply</button>
               <p class="text-success d-none" id="applied-text">Coupon applied</p>
               <p class="text-danger d-none">Couldn't apply coupon</p>
@@ -140,7 +142,7 @@
   <!-- -----------Bootstrap Javascript  -------------------->
   <script src="js/bootstrap.bundle.min.js"></script>
   <!-- -----------vanilla Javascript ------------------------ -->
-  <!-- <script src="js/script.js"></script> -->
+  <script src="js/app.js"></script>
 </body>
 
 </html>
